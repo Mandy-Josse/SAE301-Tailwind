@@ -7,30 +7,49 @@
   </head>
   <body>
     <main class="flex flex-col items-center">
-        <nav class="w-full justify-space-between p-2">  
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Compte</a></li>
+
+
+        <nav class="w-full sticky top-0 bg-white shadow-md z-10">  
+            <ul class="flex flex-row w-full justify-between p-2 gap-5">
+                <section class="p-5 gap-5 flex flex-row">
+                    <img src="/assets/logo.webp" alt="Les Fournils de France Logo" class="w-10" />
+                </section>
+                <section class="p-2 gap-5 flex flex-row">
+                    <li><a href="/SAE301-Tailwind/accueil.html">Accueil</a></li>
+                    <li><a href="#">Compte</a></li>
+                </section>
             </ul>
         </nav>
 
-        <img src="/assets/logo.webp" alt="Les Fournils de France Logo" class="w-50" />
-        <h1 class="font-bold font-sans ">Les Fournils de France</h1>
-        <h1 class="font-serif text-gray-500">Tradition & Qualité depuis 1986</h1>
-        <h1>Découvrez notre nouveau site de click and collect!</h1>
-        <h1>Nos promos du moment</h1>
+        <a href="./accueil.html">link accueil</a>
 
-        <a href="/SAE301-Tailwind/accueil.html">link accueil</a>
 
-<!-- Nos promos du moment
-Tous
+        <section class="flex flex-col items-center my-4 gap-2">
+            <img src="/assets/logo.webp" alt="Les Fournils de France Logo" class="w-50" />
+            <h1 class="font-bold font-sans">Les Fournils de France</h1>
+            <h1 class="font-serif text-gray-500">Tradition & Qualité depuis 1986</h1>
+        </section>
+
+
+        <section class="flex flex-col w-full text-left p-5 gap-2">
+            <h1 class="font-bold font-sans">Découvrez notre nouveau site de click and collect!</h1>
+            <h1 class="font-bold font-sans">Nos promos du moment</h1>
+        </section>
+
+
+    <nav class="w-full flex flex-row justify-center my-4">  
+        <ul class="flex flex-row w-full p-2 gap-5">
+            <li><a href="#">Tous</a></li>
+            <li><a href="#">Boissons</a></li>
+            <li><a href="#">pâtisseries</a></li>
+            <li><a href="#">viennosieries</a></li>
+            <li><a href="#">Pain</a></li>
+            <li><a href="#">Sandwich</a></li>
+        </ul>
+    </nav>
  
-Boissons
- 
-pâtisseries
- 
-viennosieries
 Promo !
+
 Rupture de stock
 
 Croissant3,40 € Le prix initial était : 3,40 €.3,00 €Le prix actuel est : 3,00 €.
