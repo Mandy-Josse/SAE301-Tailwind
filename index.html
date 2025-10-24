@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="src/style.css" rel="stylesheet" />
-    <title>Les Fournils de France</title>
+    <link href="/src/style.css" rel="stylesheet" />
   </head>
   <body>
-    <main class="flex flex-col items-center bg-dark-yellow">
+    <main class="flex flex-col items-left bg-dark-yellow">
 
         <nav class="w-full sticky top-0  bg-dark-yellow shadow-md z-10">  
             <ul class="flex flex-row w-full justify-between p-2 gap-5">
@@ -32,163 +31,170 @@
         </section>
 
 
-
         <h1 class="w-full text-left p-5 text-2xl font-bold font-sans">Découvrez notre nouveau site de click and collect!</h1>
 
+        <h1 class="text-2xl w-full font-bold font-sans px-5 p-2">Nos promos du moment</h1>
+        <nav class="w-full flex flex-row justify-center">  
+            <ul class="flex flex-row w-full px-5 gap-5">
+                <li><a href="#" class="hover:text-light-yellow">Tous</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Boissons</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Pâtisseries</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Viennoiseries</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Pain</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Sandwich</a></li>
+            </ul>
+        </nav>
 
 
-        <h1 class="text-2xl w-full font-bold font-sans px-5 p-2">Nos clients adorent</h1>
-        <section id="promo__card_container" class="grid gap-4 p-5 w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+        <section id="PROMO__card_container" class="grid gap-4 p-5 w-full sm: grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
             <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute -right-3 -top-3 text-black rounded-sm bg-yellow-200 p-1 text-sm">Produit star!</p>
+                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
                 <p class="absolute left-1 top-10 text-white rounded-sm bg-red-500 p-1 text-sm">Rupture de stock</p>
 
-                <img src="/assets/mixte.jpg" alt="mixte Image" class="w-full h-45 object-cover"/>
+
+                <img src="/assets/flan.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
-                        <p class="font-bold font-sans">Mixte</p>
+                        <p class="font-bold font-sans">Flan</p>
+                        <p class="font-bold font-sans">2,00 €</p>
+                    </section>
+                    <p>Pâtisseries</p>
+                    <p>4 sur 5 étoiles</p>
+                </section>
+            </section>
+
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
+
+                <img src="/assets/croissant.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
+                <section id="info" class="flex flex-col w-full p-2 gap-2">
+                    <section class="flex flex-row justify-between w-full text-left gap-2">
+                        <p class="font-bold font-sans">Croissant</p>
+                        <p class="font-bold font-sans">2,00 €</p>
+                    </section>
+                    <p>Pain</p>
+                    <p>4.7 sur 5 étoiles</p>
+                </section>
+            </section>
+
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
+
+                <img src="/assets/pain-seigle.jpeg" alt="Pain de Seigle Image" class="w-full h-45 object-cover"/>
+                <section id="info" class="flex flex-col w-full p-2 gap-2">
+                    <section class="flex flex-row justify-between w-full text-left gap-2">
+                        <p class="font-bold font-sans">Pain de Seigle</p>
+                        <p class="font-bold font-sans">5,00 €</p>
+                    </section>
+                    <p>Pain</p>
+                    <p>4.5 sur 5 étoiles</p>
+                </section>
+            </section>
+
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
+
+                <img src="/assets/dagobert.jpeg" alt="Dagobert Image" class="w-full h-45 object-cover"/>
+                <section id="info" class="flex flex-col w-full p-2 gap-2">
+                    <section class="flex flex-row justify-between w-full text-left gap-2">
+                        <p class="font-bold font-sans">Dagobert</p>
+                        <p class="font-bold font-sans">7,30 €</p>
+                    </section>
+                    <p>Sandwich</p>
+                    <p>4 sur 5 étoiles</p>
+                </section>
+            </section>
+        </section>
+
+
+
+        <h1 class="text-2xl w-full font-bold font-sans px-5 p-2">Nos clients adorent...</h1>
+        <nav class="w-full flex flex-row justify-center">  
+            <ul class="flex flex-row w-full px-5 gap-5">
+                <li><a href="#" class="hover:text-light-yellow">Tous</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Boissons</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Pâtisseries</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Viennoiseries</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Pain</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Sandwich</a></li>
+            </ul>
+        </nav>
+
+        <section id="card_container" class="grid gap-4 p-5 w-full sm: grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
+                <p class="absolute left-1 top-1 text-white rounded-sm bg-red-500 p-1 text-sm">Rupture de stock</p>
+                <p class="absolute -right-5 -top-2 text-white rounded-sm bg-yellow-500 p-1 text-sm">Produit star!</p>
+                <img src="/assets/mixte.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
+                <section id="info" class="flex flex-col w-full p-2 gap-2">
+                    <section class="flex flex-row justify-between w-full text-left gap-2">
+                        <p class="font-bold font-sans">Le Mixte</p>
                         <p class="font-bold font-sans">5,10 €</p>
                     </section>
                     <p>Sandwich</p>
                     <p>4 sur 5 étoiles</p>
                 </section>
-            </section>
-
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute -right-3 -top-3 text-black rounded-sm bg-yellow-200 p-1 text-sm">Produit star!</p>
-
-                <img src="/assets/pain-seigle.jpeg" alt="Pain de Seigle Image" class="w-full h-45 object-cover"/>
+            </a></section>
+            
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
+                <p class="absolute -right-5 -top-2 text-white rounded-sm bg-yellow-500 p-1 text-sm">Produit star!</p>
+                <img src="/assets/pain.jpg" alt="pain choco Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
-                        <p class="font-bold font-sans">Pain de Seigle</p>
-                        <p class="font-bold font-sans">5,00 €</p>
+                        <p class="font-bold font-sans">Pain au Chocolat</p>
+                        <p class="font-bold font-sans">3,60 €</p>
                     </section>
-                    <p>Pain</p>
-                    <p>4.5 sur 5 étoiles</p>
+                    <p>Pâtisserie</p>
+                    <p>4.7 sur 5 étoiles</p>
                 </section>
-            </section>
-
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute -right-3 -top-3 text-black rounded-sm bg-yellow-200 p-1 text-sm">Produit star!</p>
-
-                <img src="/assets/dagobert.jpeg" alt="Dagobert Image" class="w-full h-45 object-cover"/>
+            </a></section>
+             
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
+                <p class="absolute -right-5 -top-2 text-white rounded-sm bg-yellow-500 p-1 text-sm">Produit star!</p>
+                <img src="/assets/choco-chaud.jpeg" alt="Choco chaud Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
-                        <p class="font-bold font-sans">Dagobert</p>
-                        <p class="font-bold font-sans">7,30 €</p>
+                        <p class="font-bold font-sans">Chocolat chaud</p>
+                        <p class="font-bold font-sans">3,10 €</p>
                     </section>
-                    <p>Sandwich</p>
-                    <p>4 sur 5 étoiles</p>
+                    <p>Boisson</p>
+                    <p>5 sur 5 étoiles</p>
                 </section>
-            </section>
+            </a></section>
 
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
-                <p class="absolute -right-3 -top-3 text-black rounded-sm bg-yellow-200 p-1 text-sm">Produit star!</p>
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
+                <p class="absolute -right-5 -top-2 text-white rounded-sm bg-yellow-500 p-1 text-sm">Produit star!</p>
                 <img src="/assets/croissant.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
                         <p class="font-bold font-sans">Croissant</p>
-                        <p class="font-bold font-sans">2,00 €</p>
+                        <p class="font-bold font-sans">3,40 €</p>
                     </section>
-                    <p>Pain</p>
-                    <p>4.7 sur 5 étoiles</p>
+                    <p>Viennoiseries</p>
+                    <p>4,7 sur 5 étoiles</p>
                 </section>
-            </section>
+            </a></section>
         </section>
-
-
-
-        <h1 class="text-2xl w-full font-bold font-sans px-5 p-2">Nos promos du moment</h1>
-        <nav class="w-full flex flex-row justify-center">  
-            <ul class="flex flex-row w-full px-5 gap-5">
-                <li><a href="#">Tous</a></li>
-                <li><a href="#">Boissons</a></li>
-                <li><a href="#">Pâtisseries</a></li>
-                <li><a href="#">Viennoiseries</a></li>
-                <li><a href="#">Pain</a></li>
-                <li><a href="#">Sandwich</a></li>
-            </ul>
-        </nav>
-
-          <section id="promo__card_container" class="grid gap-4 p-5 w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
-                <p class="absolute left-1 top-10 text-white rounded-sm bg-red-500 p-1 text-sm">Rupture de stock</p>
-
-                <img src="/assets/flan.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
-                <section id="info" class="flex flex-col w-full p-2 gap-2">
-                    <section class="flex flex-row justify-between w-full text-left gap-2">
-                        <p class="font-bold font-sans">Flan</p>
-                        <p class="font-bold font-sans">2,00 €</p>
-                    </section>
-                    <p>Pâtisseries</p>
-                    <p>4 sur 5 étoiles</p>
-                </section>
-            </section>
-
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
-
-                <img src="/assets/croissant.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
-                <section id="info" class="flex flex-col w-full p-2 gap-2">
-                    <section class="flex flex-row justify-between w-full text-left gap-2">
-                        <p class="font-bold font-sans">Croissant</p>
-                        <p class="font-bold font-sans">2,00 €</p>
-                    </section>
-                    <p>Pain</p>
-                    <p>4.7 sur 5 étoiles</p>
-                </section>
-            </section>
-
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
-
-                <img src="/assets/pain-seigle.jpeg" alt="Pain de Seigle Image" class="w-full h-45 object-cover"/>
-                <section id="info" class="flex flex-col w-full p-2 gap-2">
-                    <section class="flex flex-row justify-between w-full text-left gap-2">
-                        <p class="font-bold font-sans">Pain de Seigle</p>
-                        <p class="font-bold font-sans">5,00 €</p>
-                    </section>
-                    <p>Pain</p>
-                    <p>4.5 sur 5 étoiles</p>
-                </section>
-            </section>
-
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-                <p class="absolute left-1 top-1 text-white rounded-sm bg-black p-1 text-sm">Promo!</p>
-
-                <img src="/assets/dagobert.jpeg" alt="Dagobert Image" class="w-full h-45 object-cover"/>
-                <section id="info" class="flex flex-col w-full p-2 gap-2">
-                    <section class="flex flex-row justify-between w-full text-left gap-2">
-                        <p class="font-bold font-sans">Dagobert</p>
-                        <p class="font-bold font-sans">7,30 €</p>
-                    </section>
-                    <p>Sandwich</p>
-                    <p>4 sur 5 étoiles</p>
-                </section>
-            </section>
-        </section>
-
-
 
 
         <h1 class="text-2xl w-full font-bold font-sans px-5 p-2">Nos produits</h1>
+
+        <h1 class="text-2xl w-full font-bold font-sans px-5 p-2">Nos clients adorent...</h1>
         <nav class="w-full flex flex-row justify-center">  
             <ul class="flex flex-row w-full px-5 gap-5">
-                <li><a href="#">Tous</a></li>
-                <li><a href="#">Boissons</a></li>
-                <li><a href="#">Pâtisseries</a></li>
-                <li><a href="#">Viennoiseries</a></li>
-                <li><a href="#">Pain</a></li>
-                <li><a href="#">Sandwich</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Tous</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Boissons</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Pâtisseries</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Viennoiseries</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Pain</a></li>
+                <li><a href="#" class="hover:text-light-yellow">Sandwich</a></li>
             </ul>
         </nav>
+
         
         <section id="card_container" class="grid gap-4 p-5 w-full sm: grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
                 <p class="absolute left-1 top-1 text-white rounded-sm bg-red-500 p-1 text-sm">Rupture de stock</p>
-                <img src="/assets/flan.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
+                <img src="/assets/flan.jpeg" alt="flan Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
                         <p class="font-bold font-sans">Flan</p>
@@ -197,9 +203,10 @@
                     <p>Pâtisseries</p>
                     <p>4 sur 5 étoiles</p>
                 </section>
-            </section>
+            </a></section>
             
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
+                <p class="absolute -right-5 -top-2 text-white rounded-sm bg-yellow-500 p-1 text-sm">Produit star!</p>
                 <img src="/assets/croissant.jpeg" alt="Croissant Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
@@ -209,9 +216,9 @@
                     <p>Pain</p>
                     <p>4.7 sur 5 étoiles</p>
                 </section>
-            </section>
+            </a></section>
              
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
                 <img src="/assets/pain-seigle.jpeg" alt="Pain de Seigle Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
@@ -221,9 +228,9 @@
                     <p>Pain</p>
                     <p>4.5 sur 5 étoiles</p>
                 </section>
-            </section>
+            </a></section>
              
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
                 <img src="/assets/dagobert.jpeg" alt="Dagobert Image" class="w-full h-45 object-cover"/>
                 <section id="info" class="flex flex-col w-full p-2 gap-2">
                     <section class="flex flex-row justify-between w-full text-left gap-2">
@@ -233,10 +240,10 @@
                     <p>Sandwich</p>
                     <p>4 sur 5 étoiles</p>
                 </section>
-            </section>
+            </a></section>
 
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
-               <img src="/assets/pecheur.jpeg" alt="Dagobert Image" class="w-full h-45 object-cover"/>
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
+               <img src="/assets/pecheur.jpeg" alt="Pêcheur Image" class="w-full h-45 object-cover"/>
                <section id="info" class="flex flex-col w-full p-2 gap-2">
                    <section class="flex flex-row justify-between w-full text-left gap-2">
                        <p class="font-bold font-sans">Le pêcheur</p>
@@ -245,9 +252,9 @@
                    <p>Sandwich</p>
                    <p>4,8 sur 5 étoiles</p>
                </section>
-            </section>
+            </a></section>
 
-            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative">
+            <section id="product__card" class="bg-light-yellow flex flex-wrap justify-left w-50 h-80 relative"><a href="/pages/page_produit.html">
                <img src="/assets/tropicana.jpeg" alt="Tropicana Image" class="w-full h-45 object-cover"/>
                <section id="info" class="flex flex-col w-full p-2 gap-2">
                    <section class="flex flex-row justify-between w-full text-left gap-2">
@@ -257,7 +264,7 @@
                    <p>Boissons</p>
                    <p>4,8 sur 5 étoiles</p>
                </section>
-            </section>
+            </a></section>
         </section>
 
     </main>
@@ -282,8 +289,8 @@
         <section class="flex flex-row gap-5 p-5 w-full justify-between items-center">
             <p>©Les fournils de france. Tous droits réservés. Propulsé par Wordpress.com</p>        
             <section class="flex flex-row gap-5">
-                <a href="" class="bg-black p-5 text-white rounded-sm">Mentions légales</a>
-                <a href="" class="bg-black p-5 text-white rounded-sm">Politique de confidentialité</a>
+                <a href="" class="bg-black p-5 text-white rounded-sm hover:bg-dark-yellow hover:text-black border border-black">Mentions légales</a>
+                <a href="" class="bg-black p-5 text-white rounded-sm hover:bg-dark-yellow hover:text-black border border-black">Politique de confidentialité</a>
             </section>
         </section>
     </footer>
